@@ -8,6 +8,7 @@
     "material-colors.scss",
     "palette.scss",
     "typography.scss",
-    "fonts.scss"
+    "fonts.scss",
+    "assets/fonts"
   ]
 }
