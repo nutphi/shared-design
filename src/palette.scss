@@ -1,0 +1,25 @@
+// Colors
+$blue: #2196F3;
+$blue-75: transparentize($blue, .25);
+$blue-50: transparentize($blue, .5);
+
+$teal: #1c9286;
+$teal-75: transparentize($teal, .25);
+$teal-50: transparentize($teal, .5);
+
+$amber: #f8c018;
+$amber-75: transparentize($amber, .25);
+$amber-50: transparentize($amber, .5);
+
+$red: #ce2323;
+$red-75: transparentize($red, .25);
+$red-50: transparentize($red, .5);
+
+// Greys
+$dark-grey: #313030;
+$dark-grey-75: transparentize($dark-grey, .25);
+$dark-grey-50: transparentize($dark-grey, .5);
+
+$light-grey: #d3d2d2;
+$light-grey-75: transparentize($light-grey, .25);
+$light-grey-50: transparentize($light-grey, .5);

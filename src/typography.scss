@@ -1,0 +1,80 @@
+@import './palette.scss';
+
+@mixin typography() {
+  * {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  h1, h2, h3, h4, h5, p, b, strong, i, em, mark, small, del, ins, sub, sup {
+    color: $dark-grey;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p, b, strong, i, em, mark, del, ins {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    margin-bottom: 0.6rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .medium-typography {
+    h1 {
+      font-size: 2.4rem;
+      line-height: 2.6rem;
+      margin-bottom: 1.6rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      line-height: 2.6rem;
+      margin-bottom: 1.4rem;
+    }
+
+    p, b, strong, i, em, mark, del, ins {
+      font-size: 0.9rem;
+      line-height: 1.8rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+
+  .mobile-typography {
+    h1 {
+      font-size: 2.6rem;
+      line-height: 2.2rem;
+      margin-bottom: 1.8rem;
+    }
+
+    h2 {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+      margin-bottom: 1.4rem;
+    }
+
+    p, b, strong, i, em, mark, del, ins {
+      font-size: 0.8rem;
+      line-height: 1.6rem;
+      margin-bottom: 0.4rem;
+    }
+  }
+}
