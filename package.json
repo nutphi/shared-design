@@ -1,6 +1,6 @@
 {
   "name": "@tikattan/shared-design",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A demo repository to illustrate how to share palette and typography through NPM",
   "license": "MIT",
   "private": false,
