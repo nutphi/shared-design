@@ -5,8 +5,9 @@
   "license": "MIT",
   "private": false,
   "files": [
-    "src/material-colors.scss",
-    "src/palette.scss",
-    "src/typography.scss"
+    "material-colors.scss",
+    "palette.scss",
+    "typography.scss",
+    "fonts.scss"
   ]
 }
